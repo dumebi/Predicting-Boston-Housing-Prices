@@ -86,7 +86,7 @@ def ModelComplexity(X, y):
     pl.xlabel('Maximum Depth')
     pl.ylabel('Score')
     pl.ylim([-0.05, 1.05])
-    pl.savefig('complexity curve.png')
+    pl.savefig('new House complexity curve.png')
 
 
 def PredictTrials(X, y, fitter, data):
